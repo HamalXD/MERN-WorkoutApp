@@ -1,10 +1,9 @@
 const Workout = require("../models/workoutModel");
-const mongoose = require('mongoose')
+const mongoose = require("mongoose");
 
 //GET ALL WORKOUTS
 const getWorkouts = async (req, res) => {
   const workouts = await Workout.find({}).sort({ createdAt: -1 });
-
   res.status(200).json(workouts);
 };
 
@@ -12,8 +11,8 @@ const getWorkouts = async (req, res) => {
 const getWorkout = async (req, res) => {
   const { id } = req.params;
 
-  if(!mongoose.Types.ObjectId.isValid(id)){
-    return res.status(404).json({error: 'No such workout found'})
+  if (!mongoose.Types.ObjectId.isValid(id)) {
+    return res.status(404).json({ error: "No such workout found" });
   }
 
   const workout = await Workout.findById(id);
@@ -38,12 +37,45 @@ const createWorkout = async (req, res) => {
   }
 };
 
-//UPDATE A NEW WORKOUT
-
 //DELETE A NEW WORKOUT
+const deleteWorkout = async (req, res) => {
+  const { id } = req.params;
 
+  if (!mongoose.Types.ObjectId.isValid(id)) {
+    return res.status(404).json({ error: "No such workout found" });
+  }
+
+  const workout = await Workout.findOneAndDelete({ _id: id });
+
+  if (!workout) {
+    return res.status(404).json({ error: "No such workout found" });
+  }
+
+  res.status(200).json(workout);
+};
+
+//UPDATE A NEW WORKOUT
+const updateWorkout = async (req, res) => {
+  const { id } = req.params;
+
+  if (!mongoose.Types.ObjectId.isValid(id)) {
+    return res.status(404).json({ error: "No such workout found" });
+  }
+
+  const workout = await Workout.findOneAndUpdate({ _id: id }, { ...req.body });
+
+  if (!workout) {
+    return res.status(404).json({ error: "No such workout found" });
+  }
+
+  res.status(200).json(workout);
+};
+
+//EXPORTING
 module.exports = {
   getWorkouts,
   getWorkout,
   createWorkout,
+  deleteWorkout,
+  updateWorkout,
 };
