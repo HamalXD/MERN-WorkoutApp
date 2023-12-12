@@ -1,5 +1,5 @@
 <h1>WORKOUT TRACKER MERN APP</h1><br/>
-This app lets you track your workout along with the load , reps and the name of the workout. It also lets you create new workouts or delete remaining workouts(if there are none it thorws an error message)<br/>
+This app lets you track your workout along with the load , reps and the name of the workout. It also lets you create new workouts or delete remaining workouts(if there are none it throws an error message)<br/>
 <br/>
 <h1>HOW TO USE</h1> <br/>
 <h2>Backend</h2><br/>
