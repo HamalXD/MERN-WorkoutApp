@@ -5,7 +5,7 @@ const {
   getWorkouts,
   deleteWorkout,
   updateWorkout
-} = require("../contollers/workoutController");
+} = require("../controllers/workoutController");
 
 const router = express.Router();
 
