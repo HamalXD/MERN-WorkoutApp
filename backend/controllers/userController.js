@@ -14,10 +14,10 @@ const signupUser = async (req, res) => {
 
     res.status(200).json({ email, user });
   } catch (error) {
-    res.status(400).json({ error: error.msg });
+    res.status(400).json({ error: error.message });
   }
 
-  res.json({ mssg: "SIGNUP USER" });
+  // res.json({ mssg: "SIGNUP USER" });
 };
 
 module.exports = {
