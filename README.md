@@ -23,9 +23,9 @@ git clone https://github.com/HamalXD/MERN-WorkoutApp.git
 
 ·Step 2 - Open up the terminal and type the following commands
 ```bash
-#npm install
+npm install
 or
-#npm i
+npm i
 ```
 ·Step 3 - Create a new .env folder with the following information
 ```javascript
@@ -42,9 +42,9 @@ npm run dev
 
 ·Step 2 - Open up the terminal and type the following commands
 ```bash
-#npm install
+npm install
 or
-#npm i
+npm i
 ```
 ·Step 3 - Open up your terminal and write type
 ```bash
