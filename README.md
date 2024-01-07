@@ -43,6 +43,7 @@ npm run dev
 #npm install
 or
 #npm i
+```
 ·Step 3 - Open up your terminal and write type
 ```bash
 npm start
