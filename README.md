@@ -30,6 +30,8 @@ npm i
 ·Step 3 - Create a new .env folder with the following information
 ```javascript
 PORT="The port you want your backend to run on (example: PORT=4000 or PORT= 4001)"
+MONGO_URI="mongodb+srv://username:<password>@fullstack-1.fvdogku.mongodb.net/?retryWrites=true&w=majority"
+SECRET="A Secret Key that only you know"
 ```
 ·Step 4 - Open up your terminal and write the following commands
 ```bash
