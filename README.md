@@ -19,7 +19,7 @@ git clone https://github.com/HamalXD/MERN-WorkoutApp.git
 ```
 
 ### Backend
-·Step 1 - Download the Backend folder
+·Step 1 - Navigate to the Backend folder
 
 ·Step 2 - Open up the terminal and type the following commands
 ```bash
@@ -40,7 +40,7 @@ npm run dev
 ·Step 5 - Open up postman or insomnia to check where the API is working or not
 
 ### Frontend
-·Step 1 - Download the Frontend folder
+·Step 1 - Navigate to the Frontend folder
 
 ·Step 2 - Open up the terminal and type the following commands
 ```bash
