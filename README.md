@@ -20,6 +20,7 @@ git clone https://github.com/HamalXD/MERN-WorkoutApp.git
 
 ### Backend
 ·Step 1 - Download the Backend folder
+
 ·Step 2 - Open up the terminal and type the following commands
 ```bash
 #npm install
@@ -38,6 +39,7 @@ npm run dev
 
 ### Frontend
 ·Step 1 - Download the Frontend folder
+
 ·Step 2 - Open up the terminal and type the following commands
 ```bash
 #npm install
