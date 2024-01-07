@@ -37,7 +37,7 @@ SECRET="A Secret Key that only you know"
 ```bash
 npm run dev
 ```
-·Step 5 - Open up postman or insomnia to check where the API is working or not
+·Step 5 - Open up postman or insomnia to check if the API is working or not
 
 ### Frontend
 ·Step 1 - Navigate to the Frontend folder
