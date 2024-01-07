@@ -27,7 +27,7 @@ npm install
 or
 npm i
 ```
-·Step 3 - Create a new .env folder with the following information
+·Step 3 - Create a new .env file with the following information
 ```javascript
 PORT="The port you want your backend to run on (example: PORT=4000 or PORT= 4001)"
 MONGO_URI="mongodb+srv://username:<password>@databasename.fvdogku.mongodb.net/?retryWrites=true&w=majority"
