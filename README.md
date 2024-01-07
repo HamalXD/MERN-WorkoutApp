@@ -3,13 +3,13 @@ This app lets you track your workout along with the load , reps and the name of 
 <br/>
 <h1>Packages Used</h1>
 <h2>Backend</h2><br/>
-    ·bcrypt
-    ·dotenv
-    ·express
-    ·jsonwebtoken
-    ·mongodb
-    ·mongoose
-    ·validator
+    ·bcrypt<br/>
+    ·dotenv<br/>
+    ·express<br/>
+    ·jsonwebtoken<br/>
+    ·mongodb<br/>
+    ·mongoose<br/>
+    ·validator<br/>
 <br/>
 <h1>HOW TO USE</h1> <br/>
 <h2>Backend</h2><br/>
