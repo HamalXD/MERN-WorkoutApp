@@ -7,6 +7,13 @@ const userRoutes = require("./routes/user");
 
 //express app
 const app = express();
+app.use(cors(
+  {
+    origin: "http://workoutracker.vercel.app",
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true
+  }
+))
 
 //Middleware
 app.use(express.json());
@@ -32,3 +39,5 @@ mongoose
   .catch((error) => {
     console.log(error);
   });
+
+module.exports = app;
